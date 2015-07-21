@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/main_title"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0601ff"
+        android:id="@+id/main_title"
+        android:textSize="25sp"
+        android:textIsSelectable="true"
+        android:textStyle="normal"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/but_Spotify_Streamer"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/main_title"
+        android:layout_alignParentEnd="true"
+        android:onClick="spotify_streamer_onclick"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/but_Scores_App"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/but_Spotify_Streamer"
+        android:layout_alignParentStart="true"
+        android:onClick="scores_app_onclick"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/but_Library_App"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/but_Scores_App"
+        android:layout_centerHorizontal="true"
+        android:onClick="library_app_onclick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/built_it_bigger"
+        android:id="@+id/but_Build_It_Bigger"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/but_Library_App"
+        android:layout_centerHorizontal="true"
+        android:onClick="built_it_bigger_onclick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/but_XYZ_Reader"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/but_Build_It_Bigger"
+        android:layout_centerHorizontal="true"
+        android:onClick="xyz_reader_onclick"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/but_Capstone"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/but_XYZ_Reader"
+        android:layout_centerHorizontal="true"
+        android:onClick="capstone_onclick"
+        />
+
+</RelativeLayout>
